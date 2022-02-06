@@ -54,7 +54,6 @@
             FMainChips,
             FMainSite,
             FContact,
-            FDonate,
             FFooter,
         },
 
