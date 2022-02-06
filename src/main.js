@@ -4,7 +4,7 @@ import vuetify from './plugins/vuetify';
 
 Vue.config.productionTip = false
 
-document.title = 'FlyingSky\'s Home'
+document.title = 'Zhuym\'s Index'
 
 new Vue({
 	vuetify,
