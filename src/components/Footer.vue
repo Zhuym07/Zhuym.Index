@@ -1,9 +1,11 @@
 <template>
     <div class="my-12 px-4 text-caption" style="opacity: .75">
-        <b>FlyingSky's Website</b>
-        <br />Created by FlyingSky with ♥ since 2017.
+        <b>Zhuym's Home</b>
+        <br />Created by Zhuym with ♥ since 2022.
+        <br />赣ICP备20004742号-1
+        <br />赣公网安备36010602000076号
         <br />
-        <br />&copy; 2017-2021 FlyingSky.
+        <br />&copy; 2022-2022 Zhuym.
         <v-dialog v-model="dialog" max-width="768px" :dark="dark">
             <template v-slot:activator="{ on, attrs }">
                 <a v-bind="attrs" v-on="on">

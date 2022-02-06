@@ -2,14 +2,14 @@
     "title": "联系我",
     "subtitle": "Contact",
     "data": [{
-            "href": "mailto:me@fsky7.com",
+            "href": "mailto:link@zer0code.cn",
             "key": "E-mail",
-            "value": "me@fsky7.com"
+            "value": "link@zer0code.cn"
         },
         {
-            "href": "https://t.me/flyingsky666",
+            "href": "https://t.me/Zhuym",
             "key": "Telegram",
-            "value": "@FlyingSky666"
+            "value": "@Zhuym"
         }
     ]
 }

@@ -1,26 +1,26 @@
 {
     "data": [{
-            "href": "https://blog.fsky7.com",
+            "href": "https://me.zer0code.cn",
             "key": "Blog",
             "value": "FlyingSky's Blog",
             "color": "#2EA9DF"
         },
         {
-            "href": "https://space.bilibili.com/32792271",
+            "href": "https://space.bilibili.com/276556775",
             "key": "Bilibili",
-            "value": "FlyingSky_",
+            "value": "-Zhuym",
             "color": "#F596AA"
         },
         {
-            "href": "https://github.com/FlyingSky-CN",
-            "key": "GitHub",
-            "value": "@FlyingSky-CN",
-            "color": "#787D7B"
+            "href": "https://twitter.com/Zhuym07",
+            "key": "Twitter",
+            "value": "@Zhuym07",
+            "color": "#1d9bf0"
         },
         {
-            "href": "https://weibo.com/flyingsky7",
+            "href": "https://weibo.com/u/7442996263",
             "key": "Weibo",
-            "value": "@FlyingSky",
+            "value": "@Zhuym52620",
             "color": "#F9BF45"
         }
     ]

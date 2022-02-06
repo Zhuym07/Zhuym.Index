@@ -42,7 +42,6 @@
     import FMainChips from "./components/Chips";
     import FContact from "./components/Contact";
     import FMainSite from "./components/Site";
-    import FDonate from "./components/Donate";
     import FFooter from "./components/Footer";
 
     export default {
