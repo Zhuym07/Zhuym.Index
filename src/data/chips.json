@@ -25,5 +25,17 @@
     {
         "icon": "pencil-ruler",
         "text": "UI设计"
+    },
+    {
+        "icon": "human-female-dance",
+        "text": "MMD"
+    },
+    {
+        "icon": "microphone",
+        "text": "Vocaloid"
+    },
+    {
+        "icon": "file-powerpoint-box",
+        "text": "PowerPoint"
     }
 ]
