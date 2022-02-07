@@ -11,5 +11,12 @@
         "icon": "earth",
         "link": "https://me.zer0code.cn/",
         "color": "green"
+    },
+    {
+        "text": "Music",
+        "data": null,
+        "icon": "music-note-eighth",
+        "link": "https://music.zer0code.cn/",
+        "color": "yellow"
     }
 ]
