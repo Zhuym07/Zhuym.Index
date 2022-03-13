@@ -7,7 +7,7 @@
             </v-list-item-content>
         </v-list-item>
         <v-card-text>
-            我目前参与的都是些非盈利项目，你可以选择赞助我，你的支持是我最大的动力。
+            你可以选择赞助我，你的支持是我最大的动力。
             <br />除了下方给出的赞助方式，你也可以直接联系我。
         </v-card-text>
         <v-card-actions>
@@ -15,7 +15,7 @@
                 class="ma-2"
                 elevation="0"
                 style="background: linear-gradient(90deg, #946ce6, #7e5fd9); color: white"
-                href="https://afdian.net/@flyingsky"
+                href="https://afdian.net/@Zhuym"
             >爱发电 / Afdian</v-btn>
         </v-card-actions>
     </v-card>
