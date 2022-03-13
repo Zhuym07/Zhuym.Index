@@ -7,13 +7,11 @@
             :dark="dark"
             :color="dark ? '#121212' : '#fff'"
         >
-            <v-app-bar-nav-icon
-                @click.stop="drawer = !drawer"
-            ></v-app-bar-nav-icon>
-            <v-toolbar-title>{{ header.title }}</v-toolbar-title>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+            <v-toolbar-title>{{header.title}}</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon @click.stop="dark ? offDarkMode() : onDarkMode()">
-                <v-icon>mdi-{{ header.icon.darkmode }}</v-icon>
+                <v-icon>mdi-{{header.icon.darkmode}}</v-icon>
             </v-btn>
         </v-app-bar>
 
@@ -23,7 +21,7 @@
 
         <v-main :dark="dark">
             <f-main-title></f-main-title>
-            <v-container class="f-container">
+            <v-container>
                 <f-main-about :dark="dark"></f-main-about>
                 <f-main-chips :dark="dark"></f-main-chips>
                 <f-contact :dark="dark"></f-contact>
@@ -36,39 +34,41 @@
 </template>
 
 <script>
-import Darkmode from "./assets/darkmode";
-import FNavbarList from "./components/NavbarList";
-import FMainTitle from "./components/Title";
-import FMainAbout from "./components/About";
-import FMainChips from "./components/Chips";
-import FContact from "./components/Contact";
-import FMainSite from "./components/Site";
-import FDonate from "./components/Donate";
-import FFooter from "./components/Footer";
-export default {
-    name: "App",
-    metaInfo: require('./data/meta.json'),
-    components: {
-        FNavbarList,
-        FMainTitle,
-        FMainAbout,
-        FMainChips,
-        FMainSite,
-        FContact,
-        FDonate,
-        FFooter,
-    },
-    data: () => ({
-        onDarkMode() {},
-        offDarkMode() {},
-        header: require("./data/header.json"),
-        dark: false,
-        drawer: null,
-    }),
-    mounted() {
-        Darkmode(this);
-    },
-};
+    import Darkmode from "./assets/darkmode";
+
+    import FNavbarList from "./components/NavbarList";
+    import FMainTitle from "./components/Title";
+    import FMainAbout from "./components/About";
+    import FMainChips from "./components/Chips";
+    import FContact from "./components/Contact";
+    import FMainSite from "./components/Site";
+    import FFooter from "./components/Footer";
+
+    export default {
+        name: "App",
+
+        components: {
+            FNavbarList,
+            FMainTitle,
+            FMainAbout,
+            FMainChips,
+            FMainSite,
+            FContact,
+            FFooter,
+        },
+
+        data: () => ({
+            onDarkMode() {},
+            offDarkMode() {},
+            header: require("./data/header.json"),
+            dark: false,
+            drawer: false
+        }),
+
+        mounted() {
+            Darkmode(this);
+        },
+    };
 </script>
 
 <style src="./assets/global.css"></style>
