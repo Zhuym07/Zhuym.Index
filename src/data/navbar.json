@@ -18,5 +18,12 @@
         "icon": "music-note-eighth",
         "link": "https://music.zer0code.cn/",
         "color": "yellow"
+    },
+    {
+        "text": "RSSHub",
+        "data": null,
+        "icon": "rss-feed",
+        "link": "https://rsshub.zer0code.cn/",
+        "color": "orange"
     }
 ]
