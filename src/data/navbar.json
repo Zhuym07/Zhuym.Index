@@ -1,22 +1,30 @@
 [{
-        "text": "Index",
+        "text": "主页",
         "data": null,
         "icon": "gesture",
         "link": "https://zer0code.cn/",
         "color": "blue"
     },
     {
-        "text": "Blog",
+        "text": "博客",
         "data": null,
         "icon": "earth",
         "link": "https://blog.zer0code.cn/",
         "color": "green"
     },
     {
-        "text": "RSSHub",
+        "text": "RSSHub 服务",
         "data": null,
-        "icon": "rss-feed",
+        "icon": "rss",
         "link": "https://rsshub.zer0code.cn/",
         "color": "yellow"
+    },
+    {
+        "text": "服务状态",
+        "data": null,
+        "icon": "checkbox-blank-circle",
+        "link": "https://stats.uptimerobot.com/pqwN8s9M6D",
+        "color": "green"
     }
+
 ]
