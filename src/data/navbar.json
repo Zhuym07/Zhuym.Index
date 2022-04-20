@@ -10,14 +10,14 @@
         "data": null,
         "icon": "earth",
         "link": "https://blog.zer0code.cn/",
-        "color": "green"
+        "color": "#4e587f"
     },
     {
         "text": "RSSHub 服务",
         "data": null,
         "icon": "rss",
         "link": "https://rsshub.zer0code.cn/",
-        "color": "yellow"
+        "color": "orange"
     },
     {
         "text": "服务状态",
