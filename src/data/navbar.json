@@ -20,9 +20,16 @@
         "color": "orange"
     },
     {
+        "text": "漫游解析服务",
+        "data": null,
+        "icon": "code-tags",
+        "link": "https://hk.bili.zer0code.cn/",
+        "color": "#ff95c3"
+    }
+    {
         "text": "服务状态",
         "data": null,
-        "icon": "checkbox-blank-circle",
+        "icon": "information",
         "link": "https://stats.uptimerobot.com/pqwN8s9M6D",
         "color": "green"
     }
