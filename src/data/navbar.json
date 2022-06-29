@@ -27,11 +27,19 @@
         "color": "#ff95c3"
     },
     {
+        "text": "Anti-OCR",
+        "data": null,
+        "icon": "broadcast-off",
+        "link": "https://把OCR.送进.icu",
+        "color": "#0099CC"
+    },
+    {
         "text": "服务状态",
         "data": null,
-        "icon": "information",
+        "icon": "album",
         "link": "https://stats.uptimerobot.com/pqwN8s9M6D",
         "color": "green"
     }
+
 
 ]
