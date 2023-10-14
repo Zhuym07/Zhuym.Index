@@ -7,10 +7,6 @@
         "text": "UP主"
     },
     {
-        "icon": "lifebuoy",
-        "text": "maimai"
-    },
-    {
         "icon": "all-inclusive",
         "text": "白夜梦想家"
     },
@@ -25,6 +21,14 @@
     {
         "icon": "music-note-outline",
         "text": "音游玩家"
+    },
+    {
+        "icon": "lifebuoy",
+        "text": "maimai"
+    },
+    {
+        "icon": "run-fast",
+        "text": "MuseDash"
     },
     {
         "icon": "pencil-ruler",
